@@ -1,8 +1,8 @@
 {
   "name": "apimarket",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "API para el mercado, creada con Express y MySQL",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js",
@@ -10,8 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["express", "mysql", "api", "nodejs"],
-  "author": "",
-  "license": "ISC",
+  "author": "Alexander el guapo",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
